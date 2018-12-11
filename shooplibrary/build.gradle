@@ -31,10 +31,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation files('libs/NeptuneLiteApi_V3.00.00_20180717.jar')
+    implementation files('build/ShoopJar_V1.00.00_20181211.jar')
 }
 
 def _BASENAME = "ShoopJar";
-def _VERSION = "_V1.00.00_20181210";
+def _VERSION = "_V1.00.00_20181211";
 def _DestinationPath = "build";
 def zipFile = file('build/intermediates/intermediate-jars/debug/classes.jar');
 
